@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #111D5E;
+}
+h1, h2 {
+  color: darkgrey;
+}
+p {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+.topContainer {
+  font-family: 'Russo One', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 100px;
+}
+.bottomContainer {
+
+}
+.foot {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  color: darkgrey;
+  font-family: 'Russo One', sans-serif;
+}
+.ball {
+  text-align: center;
+  position: relative;
+  width: 500px;
+}
+.response {
+  position: absolute;
+  transform: translate(-50%, -25%);
+  bottom: 33%;
+  left: 50%;
+}
+@media (max-width: 800px) {
+  .response {
+    position: absolute;
+    transform: translate(-50%, -23%);
+    bottom: 25%;
+    left: 50%;
+  }
+}
